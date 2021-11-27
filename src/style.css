@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border: 1px solid red;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+.number {
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.9rem;
+  font-size: 1rem;
+  margin: 1rem;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transition: all 0.4s;
+
+}
+.btnDiv{
+    margin-top: 6rem;
+}
+.btn:hover {
+    transform: scale(1.03);
+  }
+.increase {
+  background-color: rgb(15, 146, 15);
+  color: white;
+}
+.increase:hover {
+  background-color: rgb(7, 99, 7);
+}
+.decrease {
+  background-color: rgb(146, 15, 15);
+  color: white;
+}
+.decrease:hover {
+  background-color: rgb(95, 9, 9);
+}
+.reset {
+  background-color: rgb(180, 95, 15);
+  color: white;
+}
+.reset:hover {
+  background-color: rgb(100, 51, 5);
+}
