@@ -7,12 +7,17 @@ body {
   height: 100vh;
 }
 .container {
-  border: 1px solid red;
   padding: 1rem;
-  border-radius: 0.8rem;
+  border-radius: 34px;
+  background: #ededed;
+  box-shadow:  50px 50px 100px #c9c9c9,
+               -50px -50px 100px #ffffff;
 }
-.number {
+.number,.counter {
   text-align: center;
+}
+.number{
+  font-size: 2rem;
 }
 .btn {
   cursor: pointer;
@@ -24,14 +29,13 @@ body {
   letter-spacing: 0.1rem;
   font-weight: bold;
   transition: all 0.4s;
-
 }
-.btnDiv{
-    margin-top: 6rem;
+.btnDiv {
+  margin-top: 6rem;
 }
 .btn:hover {
-    transform: scale(1.03);
-  }
+  transform: scale(1.03);
+}
 .increase {
   background-color: rgb(15, 146, 15);
   color: white;

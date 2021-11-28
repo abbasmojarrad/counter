@@ -3,8 +3,10 @@ const increaseBtn = $.querySelector('.increase')
 const decreaseBtn = $.querySelector('.decrease')
 const resetBtn = $.querySelector('.reset')
 const number = $.querySelector('.number')
+
 let count = 0
 checkColor()
+
 function checkColor () {
   if (count < 10) {
     number.style.color = 'red'
@@ -12,6 +14,7 @@ function checkColor () {
     number.style.color = 'green'
   }
 }
+
 increaseBtn.addEventListener('click', function () {
   count++
   number.innerHTML = count
