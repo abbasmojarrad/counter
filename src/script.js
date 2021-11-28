@@ -8,11 +8,7 @@ let count = 0
 checkColor()
 
 function checkColor () {
-  if (count < 10) {
-    number.style.color = 'red'
-  } else {
-    number.style.color = 'green'
-  }
+  number.style.color = count < 10 ? 'red' : 'green'
 }
 
 increaseBtn.addEventListener('click', function () {

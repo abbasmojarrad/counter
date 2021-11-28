@@ -5,11 +5,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  border-radius: 34px;
+  background: #ededed;
+  box-shadow:  50px 50px 100px #c9c9c9,
+               -50px -50px 100px #ffffff;
 }
 .container {
   padding: 1rem;
   border-radius: 34px;
-  background: #ededed;
+  background: #ffffff;
   box-shadow:  50px 50px 100px #c9c9c9,
                -50px -50px 100px #ffffff;
 }
